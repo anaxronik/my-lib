@@ -1,4 +1,5 @@
 import require$$0 from "react";
+var styles = /* @__PURE__ */ (() => ".goo-button{background-color:#00f;padding:20px;border-radius:4px;display:flex;flex-direction:column;gap:20px}.goo-button__1{background-color:green;padding:20px}.goo-button__2{background-color:#ff0;padding:20px}.goo-button__3{background-color:silver;padding:20px}.goo-button__4{background-color:red;padding:20px}\n")();
 var jsxRuntime = { exports: {} };
 var reactJsxRuntime_production_min = {};
 /**
@@ -33,13 +34,18 @@ const jsx = jsxRuntime.exports.jsx;
 const jsxs = jsxRuntime.exports.jsxs;
 const GooButton = (props) => {
   return /* @__PURE__ */ jsxs("div", {
+    className: "goo-button",
     children: [/* @__PURE__ */ jsx("div", {
+      className: "goo-button__1",
       children: "GooButton"
     }), /* @__PURE__ */ jsxs("div", {
+      className: "goo-button__2",
       children: ["props.name: ", props.name]
     }), /* @__PURE__ */ jsxs("div", {
+      className: "goo-button__3",
       children: ["props.number: ", props.number]
     }), /* @__PURE__ */ jsxs("div", {
+      className: "goo-button__4",
       children: ["props.boolean: ", props.boolean ? "true" : "false"]
     })]
   });
